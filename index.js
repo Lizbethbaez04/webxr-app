@@ -25,7 +25,7 @@ scene.add( light );
 
 const loader = new GLTFLoader();
 
-loader.load( './models/obj.gltf', 
+loader.load( './models/os.gltf', 
  ( gltf ) => {
 
   scene.add( gltf.scene );
